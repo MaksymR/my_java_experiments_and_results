@@ -10,6 +10,7 @@ import java.io.InputStreamReader;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 public class MySimpleDateFormat {
 
@@ -20,7 +21,7 @@ public class MySimpleDateFormat {
         String inputDateFormat = bufferedReader.readLine();
 
         SimpleDateFormat oldDateFormat = new SimpleDateFormat("yyyy-MM-dd");
-        SimpleDateFormat newDateFormat = new SimpleDateFormat("MMM dd, yyyy");
+        SimpleDateFormat newDateFormat = new SimpleDateFormat("MMM dd, yyyy", Locale.ENGLISH);
 
         Date date = oldDateFormat.parse(inputDateFormat);
 
