@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a4177df-b578-458d-ad40-1b400edc73dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/simpledateformat/MySimpleDateFormat.java" afterDir="false" />
+    <list default="true" id="befa158f-58ab-41a7-9ead-5c70e99dc8f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../02_SimpleDateFormat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_SimpleDateFormat/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/simpledateformat/MySimpleDateFormat.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/mystring/MyString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+              <caret line="26" column="46" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,9 +40,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SimpleDateFormat.java" />
-        <option value="$PROJECT_DIR$/src/com/example/simpledateformat/SimpleDateFormat.java" />
-        <option value="$PROJECT_DIR$/src/com/example/simpledateformat/MySimpleDateFormat.java" />
+        <option value="$PROJECT_DIR$/src/com/example/mystring/MyString.java" />
       </list>
     </option>
   </component>
@@ -58,51 +54,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SimpleDateFormat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02_SimpleDateFormat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleDateFormat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02_SimpleDateFormat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleDateFormat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02_SimpleDateFormat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleDateFormat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02_SimpleDateFormat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleDateFormat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02_SimpleDateFormat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="simpledateformat" type="462c0819:PsiDirectoryNode" />
+              <item name="MyString" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03_MyString" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548176017131" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548181642524" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -119,12 +89,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MySimpleDateFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.simpledateformat.MySimpleDateFormat" />
-      <module name="02_SimpleDateFormat" />
+    <configuration name="MyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.mystring.MyString" />
+      <module name="03_MyString" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.simpledateformat.*" />
+          <option name="PATTERN" value="com.example.mystring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,7 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MySimpleDateFormat" />
+        <item itemvalue="Application.MyString" />
       </list>
     </recent_temporary>
   </component>
@@ -143,17 +113,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6a4177df-b578-458d-ad40-1b400edc73dc" name="Default Changelist" comment="" />
-      <created>1548175053273</created>
+      <changelist id="befa158f-58ab-41a7-9ead-5c70e99dc8f4" name="Default Changelist" comment="" />
+      <created>1548180912430</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1548175053273</updated>
-      <workItem from="1548175054854" duration="1566000" />
+      <updated>1548180912430</updated>
+      <workItem from="1548180913822" duration="561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1566000" />
+    <option name="totallyTimeSpent" value="561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -195,10 +165,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/simpledateformat/MySimpleDateFormat.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/mystring/MyString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
