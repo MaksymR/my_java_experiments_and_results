@@ -27,6 +27,12 @@ public class ReturtnTrueIfMethodHasTwoTrueFromFour {
     }
 
     public static boolean booleanExpression(boolean a, boolean b, boolean c, boolean d) {
-        return ((a ^ b) & (c ^ d)) | ((a ^ c) & (b ^ d)) | ((a ^ d) & (b ^ c));
+//        return ((a ^ b) & (c ^ d)) | ((a ^ c) & (b ^ d)) | ((a ^ d) & (b ^ c));
+//        return (a ? 1 : 0) + (b ? 1 : 0) + (c ? 1 : 0) + (d ? 1 : 0) == 2;
+        // (a | b | c | d) except that all are "false"
+        // !(a & b & c & d) except that all are "true"
+        // !(a ^ b ^ c ^ d) - the chain of operation changes the result to opposite
+        // when "true" was meet
+        return (a | b | c | d) && !(a & b & c & d) && !(a ^ b ^ c ^ d);
     }
 }
